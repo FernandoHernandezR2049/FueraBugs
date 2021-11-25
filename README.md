@@ -1,2 +1,2 @@
-# Adios-Bugs
+# Fuera Bugs
 A bug tracker webapp
