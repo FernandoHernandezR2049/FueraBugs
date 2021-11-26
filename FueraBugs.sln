@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FueraBugsDataManager", "FueraBugsDataManager\FueraBugsDataManager.csproj", "{70F5CA9C-009A-48B5-A3B6-958789DDD8C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FueraBugsDataManager", "FueraBugsDataManager\FueraBugsDataManager.csproj", "{70F5CA9C-009A-48B5-A3B6-958789DDD8C3}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FueraBugsData", "FueraBugsData\FueraBugsData.sqlproj", "{F6FD4EC5-69A0-47FA-8C75-0B8308102139}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{70F5CA9C-009A-48B5-A3B6-958789DDD8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70F5CA9C-009A-48B5-A3B6-958789DDD8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70F5CA9C-009A-48B5-A3B6-958789DDD8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FD4EC5-69A0-47FA-8C75-0B8308102139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FD4EC5-69A0-47FA-8C75-0B8308102139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FD4EC5-69A0-47FA-8C75-0B8308102139}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F6FD4EC5-69A0-47FA-8C75-0B8308102139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FD4EC5-69A0-47FA-8C75-0B8308102139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FD4EC5-69A0-47FA-8C75-0B8308102139}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
