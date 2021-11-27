@@ -36,9 +36,11 @@ namespace FueraBugsDataManager
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI();
+                
             }
+            app.UseSwagger();
+
+            app.UseSwaggerUI();
 
             app.UseHttpsRedirection();
 
