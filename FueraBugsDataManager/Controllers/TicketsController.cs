@@ -48,7 +48,18 @@ namespace FueraBugsDataManager.Controllers
                 db.SaveChanges();
             }
             return Ok();
-        } 
+        }
+        [HttpDelete]
+        public ActionResult Delete([FromBody] Models.Request.TicketEditRequest model)
+        {
+            using (Models.FueraBugsDataContext db = new Models.FueraBugsDataContext())
+            {
+                Models.Ticket oTicket = db.Ticket.Find(model.Id);
+                db.Ticket.Remove(oTicket);
+                db.SaveChanges();
+            }
+            return Ok();
+        }
 
     }
 }
